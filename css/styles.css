@@ -29,6 +29,11 @@ img {
   display: block;
 }
 
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
 .header-navigation_a {
     color: #2E2F42;
     font-size: 16px;
@@ -53,11 +58,17 @@ img {
 }
 
 .header-navigation_ul {
+  display: flex;
+  gap: 40px;
   color: var(--main-font-color);
 }
 
 address {
     font-style: normal;
+}
+
+.header-navigation_li {
+  padding: 24px 0;
 }
 
 .header-navigation_li > a {
@@ -67,6 +78,8 @@ address {
 }
 
 .header-address_ul {
+  display: flex;
+  gap: 40px;
   font-size: 16px;
   text-transform: lowercase;
   font-weight: 400;
@@ -80,6 +93,7 @@ address {
   text-transform: uppercase;
   font-weight: 800;
   line-height: 1.17;
+  margin-right: 76px;
 }
 
 .footer-container .logo-accent {
@@ -103,6 +117,14 @@ address {
 .contant-container {
   margin-top: 96px;
   margin-bottom: 120px;
+}
+
+.content-section {
+  padding: 188px 0;
+}
+
+.content-sub-section {
+  
 }
 
 .filter-buttons {
