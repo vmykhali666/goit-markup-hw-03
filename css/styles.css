@@ -131,10 +131,16 @@ address {
   gap: 24px;
 }
 
+.buttons-container_section {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 
 .filter-buttons {
+  display: flex;
   justify-content: center;
-  margin: 0 auto;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 .filter-button {
@@ -148,12 +154,16 @@ address {
   border: 0.5px solid var(--border-color);
   text-transform: capitalize;
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
 }
 
 
 
 .filter-button:hover,
 .filter-button:focus {
+  border: 1px solid transparent;
   background-color: var(--link-header-color);
   color: var(--white-color);
 }
