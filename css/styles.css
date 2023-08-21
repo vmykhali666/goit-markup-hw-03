@@ -237,6 +237,10 @@ address {
   margin: 120px 0;
 }
 
+.doing-section {
+  margin: 120px 0;
+}
+
 .content-text_block {
   width: calc((100% - 72px) / 4);
 }
@@ -271,8 +275,14 @@ address {
 }
 
 .content-photos {
+  display: flex;
+  gap: 24px;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.content-photo_li {
+  width: calc((100% - 48px) / 3);
 }
 
 .team-section {
