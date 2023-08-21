@@ -116,10 +116,14 @@ address {
   margin-bottom: 120px;
 }
 
-.content-section {
+.start-section {
   padding: 188px 0;
 }
 
+.content-text-container {
+  display: flex;
+  gap: 24px;
+}
 
 
 .filter-buttons {
@@ -231,6 +235,10 @@ address {
 
 .feature-section {
   margin: 120px 0;
+}
+
+.content-text_block {
+  width: calc((100% - 72px) / 4);
 }
 
 .content-text_h {
