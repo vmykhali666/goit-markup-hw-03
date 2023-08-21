@@ -93,6 +93,12 @@ address {
   margin-right: 76px;
 }
 
+.footer-sub-container > .icon-logo_text {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+
 .footer-container .logo-accent {
   color: var(--cloud-color);
 }
@@ -185,6 +191,7 @@ address {
 }
 
 .footer-container {
+  padding: 100px 0;
   justify-content: center;
   background-color: var(--main-font-color);
   color: var(--cloud-color);
@@ -193,6 +200,7 @@ address {
 .footer-content_text {
   font-size: 16px;
   font-weight: 400;
+  max-width: 264px;
   letter-spacing: 0.02em;
 }
 .start-section {
