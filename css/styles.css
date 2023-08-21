@@ -238,7 +238,11 @@ address {
 }
 
 .doing-section {
-  margin: 120px 0;
+  margin-bottom: 120px 0;
+}
+
+.team-section {
+  padding: 120px 0;
 }
 
 .content-text_block {
@@ -289,13 +293,21 @@ address {
   background-color: var(--cloud-color);
 }
 
+.team-persone-info {
+  padding: 32px 0;
+}
+
 .content-team-container {
+  display: flex;
+  gap: 24px;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 72px;
 }
 
 .team-persone_card {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
   overflow: hidden;
   background-color: var(--white-color);
 }
@@ -305,16 +317,18 @@ address {
 }
 
 .team-persone_name {
-  margin: 8px auto;
+  margin-bottom: 8px;
   font-size: 20px;
   color: var(--main-font-color);
   line-height: 1.2em;
   font-weight: 500;
   letter-spacing: 0.4px;
+  text-align: center;
 }
 
 .team-persone_position {
   color: var(--light-font-color);
+  text-align: center;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.32px;
