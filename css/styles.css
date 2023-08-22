@@ -74,10 +74,20 @@ address {
 }
 
 .header-navigation_li > a {
+  display: block;
   padding: 24px 0;
   font-size: 16px;
   text-transform: capitalize;
   font-weight: 500;
+}
+
+.header-address_li > a {
+  display: block;
+  padding: 24px 0;
+}
+
+.header-address {
+  margin-left: auto;
 }
 
 .header-address_ul {
@@ -120,11 +130,6 @@ address {
 
 .logo-accent:hover {
   color: var(--link-header-color);
-}
-
-.contant-container {
-  margin-top: 96px;
-  margin-bottom: 120px;
 }
 
 .start-section {
@@ -232,6 +237,13 @@ address {
   background-color: var(--main-font-color);
   color: var(--cloud-color);
   justify-content: center;
+}
+
+.start-sub-section {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
 }
 
 .cover-section_h {
